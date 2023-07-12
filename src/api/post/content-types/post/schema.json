@@ -54,6 +54,10 @@
       ],
       "default": "en",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
