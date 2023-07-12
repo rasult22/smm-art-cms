@@ -45,6 +45,15 @@
       "relation": "oneToMany",
       "target": "api::tag.tag",
       "mappedBy": "post"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "ru"
+      ],
+      "default": "en",
+      "required": true
     }
   }
 }
