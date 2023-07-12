@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmmart_cms=self.webpackChunksmmart_cms||[]).push([[4816],{39987:(O,e,t)=>{t.r(e),t.d(e,{default:()=>a});var s=t(67294),E=t(88376),n=t(86706),_=t(99369),r=t(53219);const a=()=>{const P=(0,n.v9)(_._);return s.createElement(E.O4,{permissions:P.settings["transfer-tokens"].create},s.createElement(r.Z,null))}}}]);
