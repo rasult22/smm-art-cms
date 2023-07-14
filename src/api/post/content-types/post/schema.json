@@ -58,6 +58,9 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "commaSeparatedTags": {
+      "type": "text"
     }
   }
 }
