@@ -1,4 +1,14 @@
 module.exports = ({ env }) => ({
+  'update-static-content': {
+    enabled: true,
+    config: {
+      githubToken: env('GITHUB_TOKEN'), // accessing personal github token from env file
+      owner: 'smm-constructor', // owner of the repo
+      repo: 'landing', // name of the repo
+      workflowId: 'deploy.yaml', // workflowId OR filename
+      branch: 'main', // branch name
+    },
+  },
   upload: {
     config: {
       provider: 'aws-s3',
